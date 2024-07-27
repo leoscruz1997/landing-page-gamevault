@@ -1,0 +1,35 @@
+.footer {
+  padding-inline: 2rem;
+  padding-block: 3rem;
+}
+.footer__wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+.footer__socials {
+  display: flex;
+  gap: 2rem;
+}
+.footer__socials a {
+  text-decoration: none;
+  color: #f77f00;
+}
+.footer__credits a {
+  text-decoration: none;
+  color: #f77f00;
+}
+.social {
+  font-size: 2rem;
+}
+
+.footer__img {
+  width: 100%;
+  max-width: 400px;
+}

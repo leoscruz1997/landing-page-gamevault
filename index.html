@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/components/header.css" />
+    <link rel="stylesheet" href="/styles/components/hero.css" />
+    <link rel="stylesheet" href="styles/components/reviews.css" />
+    <link rel="stylesheet" href="/styles/components/about.css" />
+    <link rel="stylesheet" href="/styles/components/offer.css" />
+    <link rel="stylesheet" href="/styles/components/footer.css" />
+
+    <script src="/scripts/script.js" defer></script>
+    <title>Game Vault</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <span class="header__logo"
+          ><span class="header__logo-color">Game</span>Vault</span
+        >
+        <nav class="header__nav">
+          <ul class="nav__ul">
+            <li class="nav__li">
+              <a class="nav__a" href="#hero">Inicio</a>
+            </li>
+            <li class="nav__li">
+              <a class="nav__a" href="#reviews">Últimas Reviews</a>
+            </li>
+            <li class="nav__li">
+              <a class="nav__a" href="#aboutus">Sobre Nós</a>
+            </li>
+            <li class="nav__li">
+              <a class="nav__a" href="#offer">O Que Oferecemos?</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__menu-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="header__icon"
+          >
+            <path
+              fillRule="evenodd"
+              d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+              clipRule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <section id="hero" class="hero">
+      <div class="hero__bg">
+        <h1 class="hero__title">Saia do abrigo e descubra o mundo dos games</h1>
+
+        <h2 class="hero__description">
+          Explore novos mundos, conheça os lançamentos mais esperados e
+          conecte-se com outros jogadores apaixonados.
+        </h2>
+
+        <button class="hero__btn">Conheça o projeto</button>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="reviews__wrapper">
+        <h2 class="reviews__title">ultimas reviews</h2>
+        <div class="reviews__grid">
+          <div class="reviews__card">
+            <img src="/images/elden-ring-dlc.jpg" alt="" class="card__img" />
+            <h2 class="card__title">ELDEN RING Shadow of the Erdtree</h2>
+            <p class="card__summary">
+              "Explore mundos vastos e enfrente inimigos poderosos neste RPG de
+              ação."
+            </p>
+            <span class="card__author">Autor: <a href="">João Silva</a></span>
+
+            <span class="card__score">Avaliação: ★★★★☆</span>
+
+            <button class="card__btn">veja a review inteira</button>
+          </div>
+
+          <div class="reviews__card">
+            <img src="/images/disco-elysium.jpg" alt="" class="card__img" />
+            <h2 class="card__title">Disco Elysium</h2>
+            <p class="card__summary">
+              "Explore mundos vastos e enfrente inimigos poderosos neste RPG de
+              ação."
+            </p>
+            <span class="card__author">Autor: <a href="">João Silva</a></span>
+
+            <span class="card__score">Avaliação: ★★★★☆</span>
+
+            <button class="card__btn">veja a review inteira</button>
+          </div>
+
+          <div class="reviews__card">
+            <img src="/images/dishonored.jpg" alt="" class="card__img" />
+            <h2 class="card__title">Dishonored</h2>
+            <p class="card__summary">
+              "Explore mundos vastos e enfrente inimigos poderosos neste RPG de
+              ação."
+            </p>
+            <span class="card__author">Autor: <a href="">João Silva</a></span>
+            <span class="card__score">Avaliação: ★★★★☆</span>
+            <button class="card__btn">veja a review inteira</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="aboutus" class="about">
+      <div class="about__wrapper">
+        <div class="about__left">
+          <div class="about__content">
+            <h2 class="about__title">O que é a GameVault?</h2>
+            <p class="about__desc">
+              Bem-vindo à GameVault, o seu portal definitivo para o universo dos
+              games! Nós somos apaixonados por jogos e dedicados a trazer para
+              você as melhores experiências, notícias e conteúdo relacionado ao
+              mundo dos jogos. Desde os clássicos nostálgicos até os lançamentos
+              mais recentes, o GameVault é o lugar onde jogadores de todas as
+              idades e interesses se encontram para explorar e descobrir o
+              melhor que o universo dos games tem a oferecer.
+            </p>
+          </div>
+        </div>
+        <div class="about__right">
+          <img class="about__img" src="/images/keyart.png" srcset="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="offer" class="offer">
+      <div class="offer__wrapper">
+        <div class="offer__left">
+          <img class="offer__img" src="/images/dk2.png" srcset="" />
+        </div>
+        <div class="offer__right">
+          <h2 class="offer__title">O que oferecemos?</h2>
+          <ul class="offer__ul">
+            <li class="offer__li">
+              <span>Análises e Guias de Jogos</span>: Receba as últimas análises
+              e guias detalhados para ajudá-lo a dominar seus jogos favoritos.
+            </li>
+            <li class="offer__li">
+              <span>Notícias e Atualizações</span>: Fique por dentro das
+              notícias mais recentes do mundo dos games, incluindo lançamentos,
+              eventos e novidades.
+            </li>
+            <li class="offer__li">
+              <span>Comunidade</span>: Participe de discussões, faça novos
+              amigos e compartilhe suas aventuras de jogo em nossa vibrante
+              comunidade.
+            </li>
+            <li class="offer__li">
+              <span>Ofertas Exclusivas</span>: Descubra promoções e ofertas
+              exclusivas para jogos e acessórios.
+            </li>
+          </ul>
+          <p class="offer__description">
+            No GameVault, acreditamos que o universo dos games é vasto e cheio
+            de possibilidades. Estamos aqui para ajudar você a explorar cada
+            canto desse mundo incrível. Junte-se a nós nessa jornada e leve sua
+            paixão pelos jogos ao próximo nível!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer-contact">
+          <div class="footer__socials">
+            <a href=""><i class="fa-brands fa-facebook social"></i></a>
+            <a href=""><i class="fa-brands fa-instagram social"></i></a>
+            <a href=""><i class="fa-brands fa-twitter social"></i></a>
+            <a href=""><i class="fa-brands fa-youtube social"></i></a>
+            <a href=""><i class="fa-brands fa-discord social"></i></a>
+          </div>
+        </div>
+        <div class="footer__credits">
+          <p>
+            Developed by
+            <a href="https://github.com/leoscruz1997" target="_blank"
+              >Leonardo Cruz</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
